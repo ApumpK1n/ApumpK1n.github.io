@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/child/2022/06/21/5w2h-godweiyang/</loc>
+    
+    <lastmod>2022-06-21T14:08:26.755Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/child/categories/index.html</loc>
     
     <lastmod>2022-06-21T13:52:05.582Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>http://yoursite.com/child/tags/index.html</loc>
     
     <lastmod>2022-06-21T13:52:05.582Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/child/2020/01/14/5w2h-godweiyang/</loc>
-    
-    <lastmod>2022-06-21T13:52:05.581Z</lastmod>
     
   </url>
   
