@@ -4,7 +4,7 @@
   <url>
     <loc>http://yoursite.com/child/2022/06/21/helloworld/</loc>
     
-    <lastmod>2022-06-21T14:16:11.945Z</lastmod>
+    <lastmod>2022-06-21T14:23:57.918Z</lastmod>
     
   </url>
   
@@ -23,13 +23,6 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/child/friends/index.html</loc>
-    
-    <lastmod>2022-06-21T13:52:05.582Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/child/tags/index.html</loc>
     
     <lastmod>2022-06-21T13:52:05.582Z</lastmod>
@@ -37,14 +30,21 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/child/archives/index.html</loc>
+    <loc>http://yoursite.com/child/friends/index.html</loc>
+    
+    <lastmod>2022-06-21T13:52:05.582Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/child/about/index.html</loc>
     
     <lastmod>2022-06-21T13:52:05.581Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/child/about/index.html</loc>
+    <loc>http://yoursite.com/child/archives/index.html</loc>
     
     <lastmod>2022-06-21T13:52:05.581Z</lastmod>
     
