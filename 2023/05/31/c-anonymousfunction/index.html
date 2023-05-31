@@ -11,7 +11,10 @@
     <meta name="description" content="
 
 当定义一个命名空间时，可以忽略这个命名空间的名称：
-namespce {    char c;}编译器在内部会为这个命名空间生成一个唯一的名字，而且还会为这个匿名的命名空间生成一条using指令。所以上面的代码在效果上等同于：names">
+namespce {
+    char c; 
+}编译器在内部会为这个命名空间生成一个唯一的名字，而且还会为这个匿名的命名空间生成一条using指令。所以上面的代码在效果上等同于：
+n">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -383,8 +386,13 @@ namespce {    char c;}编译器在内部会为这个命名空间生成一个唯�
                 <blockquote>
 </blockquote>
 <p>当定义一个命名空间时，可以忽略这个命名空间的名称：</p>
-<p>namespce {<br>    char c;<br>}<br>编译器在内部会为这个命名空间生成一个唯一的名字，而且还会为这个匿名的命名空间生成一条using指令。所以上面的代码在效果上等同于：<br>namespace __UNIQUE_NAME_ {<br>    char c;<br>}<br>using namespace __UNIQUE_NAME_;</p>
-<p>在匿名命名空间中声明的名称也将被编译器转换，与编译器为这个匿名命名空间生成的唯一内部名称(即这里的__UNIQUE_NAME_)绑定在一起。</p>
+<pre><code>namespce {
+    char c; 
+}</code></pre><p>编译器在内部会为这个命名空间生成一个唯一的名字，而且还会为这个匿名的命名空间生成一条using指令。所以上面的代码在效果上等同于：</p>
+<pre><code>namespace __UNIQUE_NAME_ {
+    char c;
+}
+using namespace __UNIQUE_NAME_;</code></pre><p>在匿名命名空间中声明的名称也将被编译器转换，与编译器为这个匿名命名空间生成的唯一内部名称(即这里的__UNIQUE_NAME_)绑定在一起。</p>
 <p>这些名称具有internal链接属性，这和声明为static的全局名称的链接属性是相同的，即名称的作用域被限制在当前文件中，无法通过在另外的文件中使用extern声明来进行链接。</p>
 <p>如果不提倡使用全局static声明一个名称拥有internal链接属性，则匿名命名空间可以作为一种更好的达到相同效果的方法。</p>
 <p>注意:命名空间都是具有external 连接属性的,只是匿名的命名空间产生的<strong>UNIQUE_NAME</strong>在别的文件中无法得到,这个唯一的名字是不可见的.</p>
@@ -484,7 +492,10 @@ namespce {    char c;}编译器在内部会为这个命名空间生成一个唯�
                             
 
 当定义一个命名空间时，可以忽略这个命名空间的名称：
-namespce {    char c;}编译器在内部会为这个命名空间生成一个唯一的名字，而且还会为这个匿名的命名空间生成一条using指令。所以上面的代码在效果上等同于：names
+namespce {
+    char c; 
+}编译器在内部会为这个命名空间生成一个唯一的名字，而且还会为这个匿名的命名空间生成一条using指令。所以上面的代码在效果上等同于：
+n
                         
                     </div>
                     <div class="publish-info">
