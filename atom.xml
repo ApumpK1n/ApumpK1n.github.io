@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/child/"/>
-  <updated>2023-05-28T00:11:04.731Z</updated>
+  <updated>2023-05-31T11:06:02.345Z</updated>
   <id>http://yoursite.com/child/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>C++匿名命名空间</title>
+    <link href="http://yoursite.com/child/2023/05/31/c-anonymousfunction/"/>
+    <id>http://yoursite.com/child/2023/05/31/c-anonymousfunction/</id>
+    <published>2023-05-31T10:58:43.000Z</published>
+    <updated>2023-05-31T11:06:02.345Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;当定义一个命名空间时，可以忽略这个命名空间的名称：&lt;/p&gt;
+&lt;p&gt;namespce {&lt;br&gt;    char
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="http://yoursite.com/child/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="文章" scheme="http://yoursite.com/child/tags/%E6%96%87%E7%AB%A0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>PhysX学习（一）源码编译</title>
     <link href="http://yoursite.com/child/2023/05/26/physx1/"/>
     <id>http://yoursite.com/child/2023/05/26/physx1/</id>
     <published>2023-05-26T02:32:30.000Z</published>
-    <updated>2023-05-28T00:11:04.731Z</updated>
+    <updated>2023-05-28T00:23:06.705Z</updated>
     
     <summary type="html">
     
