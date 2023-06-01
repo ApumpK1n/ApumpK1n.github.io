@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/child/"/>
-  <updated>2023-05-31T11:07:38.641Z</updated>
+  <updated>2023-06-01T12:33:29.505Z</updated>
   <id>http://yoursite.com/child/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C++ 类定义class+宏+类名的用途</title>
+    <link href="http://yoursite.com/child/2023/06/01/c-classdefine/"/>
+    <id>http://yoursite.com/child/2023/06/01/c-classdefine/</id>
+    <published>2023-06-01T12:07:10.000Z</published>
+    <updated>2023-06-01T12:33:29.505Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;观看Physx源码时，发现接口类使用了如下形式： class PX_FOUNDATION_API Foundation&lt;/p&gt;
+&lt;p&gt;然后宏定义为&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#if
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="http://yoursite.com/child/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="文章" scheme="http://yoursite.com/child/tags/%E6%96%87%E7%AB%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>C++匿名命名空间</title>

@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>C++ 类定义class+宏+类名的用途</title>
+      <link href="/2023/06/01/c-classdefine/"/>
+      <url>/2023/06/01/c-classdefine/</url>
+      
+        <content type="html"><![CDATA[<blockquote></blockquote><p>观看Physx源码时，发现接口类使用了如下形式： class PX_FOUNDATION_API Foundation</p><p>然后宏定义为</p><pre><code>#if PX_WINDOWS_FAMILY &amp;&amp; !PX_ARM_FAMILY#ifndef PX_FOUNDATION_DLL#define PX_FOUNDATION_API PX_DLL_IMPORT#elif PX_FOUNDATION_DLL#define PX_FOUNDATION_API PX_DLL_EXPORT#endif#if PX_WINDOWS_FAMILY#define PX_DLL_EXPORT __declspec(dllexport)#define PX_DLL_IMPORT __declspec(dllimport)#else#define PX_DLL_EXPORT PX_UNIX_EXPORT#define PX_DLL_IMPORT#endif</code></pre><p>查阅<a href="https://learn.microsoft.com/en-us/cpp/cpp/dllexport-dllimport?redirectedfrom=MSDN&view=msvc-170" target="_blank" rel="noopener">微软官方文档</a>得知</p><p>可以通过加入一个.def文件，或者在声明中使用<strong>declspec(dllimport)前缀，告诉编译器这个类是从dll导出的。同时定义这些变量的dll源文件必须加上</strong>declspec(dllexport)前缀，告诉编译器这个类需要被导出。 </p><p>定义动态库的时候是要考虑暴露接口（函数/类等）让外部用，所以用export，后续其他程序使用动态库时，是要导入接口，用import。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 文章 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>C++匿名命名空间</title>
       <link href="/2023/05/31/c-anonymousfunction/"/>
       <url>/2023/05/31/c-anonymousfunction/</url>
